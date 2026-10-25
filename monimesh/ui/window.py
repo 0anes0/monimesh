@@ -949,7 +949,7 @@ class Window(Adw.ApplicationWindow):
             developer_name="Ahmet Enes",
             website="https://github.com/0anes0/monimesh",
             issue_url="https://github.com/0anes0/monimesh/issues",
-            license_type=Gtk.License.MIT_X11,
+            license_type=Gtk.License.GPL_3_0,
             comments="Arrange displays on Wayland and turn Android devices into wired displays.",
         ).present(self)
 

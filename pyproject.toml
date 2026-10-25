@@ -7,7 +7,7 @@ name = "monimesh"
 dynamic = ["version"]
 description = "Display manager for Wayland that turns Android devices into wired displays"
 readme = "README.md"
-license = "MIT"
+license = "GPL-3.0-or-later"
 authors = [{ name = "Ahmet Enes" }]
 requires-python = ">=3.10"
 # PyGObject, GTK 4 and libadwaita come from the system package manager.

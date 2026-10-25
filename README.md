@@ -186,4 +186,8 @@ Hyprland ─► virtual output ─► wayvnc (127.0.0.1) ─► adb reverse over
 
 ## License
 
-[MIT](LICENSE)
+Copyright © 2026 Ahmet Enes
+
+Monimesh is free software: you can redistribute it and/or modify it under the terms of the
+[GNU General Public License](LICENSE) as published by the Free Software Foundation, either
+version 3 of the License, or (at your option) any later version.
