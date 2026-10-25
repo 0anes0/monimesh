@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Monimesh
+GenericName=Display Manager
+Comment=Arrange displays and use Android devices as wired screens
+Exec=monimesh
+Icon=video-display
+Terminal=false
+Categories=Settings;HardwareSettings;GTK;
+Keywords=monitor;display;screen;tablet;android;layout;resolution;scale;
+StartupWMClass=io.github.monimesh.Monimesh

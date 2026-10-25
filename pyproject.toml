@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "monimesh"
+dynamic = ["version"]
+description = "Display manager for Wayland that turns Android devices into wired displays"
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Ahmet Enes" }]
+requires-python = ">=3.10"
+# PyGObject, GTK 4 and libadwaita come from the system package manager.
+dependencies = []
+classifiers = [
+    "Environment :: X11 Applications :: GTK",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Topic :: Desktop Environment",
+]
+
+[project.urls]
+Homepage = "https://github.com/0anes0/monimesh"
+Issues = "https://github.com/0anes0/monimesh/issues"
+
+[project.scripts]
+monimesh = "monimesh.__main__:main"
+
+[tool.setuptools.dynamic]
+version = { attr = "monimesh.__version__" }
+
+[tool.setuptools.packages.find]
+include = ["monimesh*"]
